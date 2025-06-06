@@ -1,0 +1,697 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>GreenThumbs Global Terms and Conditions</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: undefined; }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-translucentGray { background-color: undefined; }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="20a8dc9a-eda5-80b0-9321-efdc3c4f947f" class="page sans"><header><h1 class="page-title"><strong>GreenThumbs Global Terms and Conditions</strong></h1><p class="page-description"></p></header><div class="page-body"><p id="20a8dc9a-eda5-800c-a961-c647a7b5581c" class=""><strong>Last Updated: 6 May 2025</strong></p><p id="20a8dc9a-eda5-801b-9901-f2191ecd99ec" class="">
+</p><p id="20a8dc9a-eda5-80fe-b637-c8681aead247" class="">Welcome to GreenThumbs, a global, user-generated platform connecting local food growers, sellers, buyers, and eco-focused communities. The Platform enables users to post and find listings for produce, handmade items, and events such as farmers’ markets, litter picking, and hiking routes. By accessing or using the GreenThumbs mobile application or website (collectively, the &quot;Platform&quot;), you agree to be bound by these Terms and Conditions (&quot;Terms&quot;), which are designed to comply with applicable laws across jurisdictions worldwide, including the United Kingdom and European Union. If you do not agree, please do not use the Platform.</p><p id="20a8dc9a-eda5-80ba-ad22-df08a45e5b3d" class="">
+</p><p id="20a8dc9a-eda5-80ed-a10c-ee83ebbe0218" class=""><strong>1. Acceptance of Terms</strong></p><p id="20a8dc9a-eda5-80a8-b047-f7d5a9d299ae" class="">By registering for, accessing, or using the Platform, you confirm that you are at least 13 years old. If you are under the age of majority in your jurisdiction (typically 18), you confirm that you have obtained parental or guardian consent to use the Platform and engage in any activities, including browsing, purchasing, posting listings, or organising events. By agreeing to these Terms, you (or your parent/guardian, if applicable) acknowledge that such consent has been provided. Parents or guardians are responsible for supervising the activities of users under 18.</p><p id="20a8dc9a-eda5-8085-8267-fd44006f0577" class="">GreenThumbs reserves the right to update these Terms at any time, with changes effective upon posting on the Platform. Continued use of the Platform constitutes acceptance of the updated Terms. These Terms apply globally, subject to mandatory local laws that cannot be overridden.</p><p id="20a8dc9a-eda5-800d-8ba3-e96e5086df21" class="">
+</p><p id="20a8dc9a-eda5-8072-96ff-eb250f86be0c" class=""><strong>2. Nature of the Platform</strong></p><p id="20a8dc9a-eda5-8047-9b69-c15e4ddfeb69" class="">GreenThumbs is a user-generated platform that facilitates:</p><ul id="20a8dc9a-eda5-8005-8d54-d55286494560" class="bulleted-list"><li style="list-style-type:disc">Posting and discovering listings for local produce, handmade items, and eco-focused events (e.g., farmers’ markets, litter picking, community clean-ups).</li></ul><ul id="20a8dc9a-eda5-80be-8a60-d2bb6e12e59e" class="bulleted-list"><li style="list-style-type:disc">Sharing and finding information about hiking routes, local markets, and community activities.</li></ul><ul id="20a8dc9a-eda5-8099-bceb-d580574432fc" class="bulleted-list"><li style="list-style-type:disc">Connecting users for transactions and interactions related to goods, services, or events.</li></ul><p id="20a8dc9a-eda5-8086-8c6c-d7b8241b5841" class="">GreenThumbs does not own, sell, or control the goods, services, or events listed on the Platform. All transactions and interactions occur directly between users. GreenThumbs is not a party to any agreements between users and does not guarantee the quality, safety, legality, or availability of any goods, services, or events listed. The Platform is accessible globally, and users are responsible for ensuring compliance with their local laws.</p><p id="20a8dc9a-eda5-8031-9e17-ee864fc97074" class="">
+</p><p id="20a8dc9a-eda5-80ba-a4d2-cd70d093d870" class=""><strong>3. User Responsibilities</strong></p><p id="20a8dc9a-eda5-8041-8425-ddb3ddea0ab5" class=""><strong>3.1 Account Registration</strong></p><ul id="20a8dc9a-eda5-80aa-83fe-e0cf5fcc0db6" class="bulleted-list"><li style="list-style-type:disc">You must provide accurate, complete, and up-to-date information when creating an account.</li></ul><ul id="20a8dc9a-eda5-8027-9ae3-e6691d28cd10" class="bulleted-list"><li style="list-style-type:disc">Users under the age of majority confirm, by agreeing to these Terms, that they have obtained parental or guardian consent to create an account, in compliance with applicable laws (e.g., UK Data Protection Act 2018, EU GDPR).</li></ul><ul id="20a8dc9a-eda5-805b-a47a-da9848b0b9b9" class="bulleted-list"><li style="list-style-type:disc">You are responsible for maintaining the confidentiality of your account credentials and for all activities conducted under your account.</li></ul><ul id="20a8dc9a-eda5-80d4-8b6f-fbc54b881bb6" class="bulleted-list"><li style="list-style-type:disc">Notify GreenThumbs immediately of any unauthorised use of your account via support@greenthumbs.app.</li></ul><p id="20a8dc9a-eda5-801a-a836-f01768394cf4" class=""><strong>3.2 Content and Listings</strong></p><ul id="20a8dc9a-eda5-8034-a2d4-d26270f166a4" class="bulleted-list"><li style="list-style-type:disc">You are solely responsible for the content you post, including listings, event details, reviews, and comments.</li></ul><ul id="20a8dc9a-eda5-8033-b468-eabd3f1fede6" class="bulleted-list"><li style="list-style-type:disc">Users under the age of majority confirm, by agreeing to these Terms, that they have parental or guardian consent to post listings, sell goods, or organise events.</li></ul><ul id="20a8dc9a-eda5-8002-b4f7-fdc9fe96286c" class="bulleted-list"><li style="list-style-type:disc">All content must comply with these Terms and all applicable local, national, and international laws, and must not:<ul id="20a8dc9a-eda5-8009-9107-c8e9bbae5103" class="bulleted-list"><li style="list-style-type:circle">Be false, misleading, fraudulent, or defamatory.</li></ul><ul id="20a8dc9a-eda5-801e-b42f-fda7398af107" class="bulleted-list"><li style="list-style-type:circle">Infringe on intellectual property, privacy, or other rights.</li></ul><ul id="20a8dc9a-eda5-80c3-bef7-d7f71105fa68" class="bulleted-list"><li style="list-style-type:circle">Contain harmful, offensive, discriminatory, or illegal material.</li></ul></li></ul><ul id="20a8dc9a-eda5-80d9-aa7f-ed41bcb6e7c9" class="bulleted-list"><li style="list-style-type:disc">Listings for goods or services must clearly describe the item, condition, price, and relevant details (e.g., allergens, organic certifications, or safety standards).</li></ul><p id="20a8dc9a-eda5-80d4-a20d-df2054341499" class=""><strong>3.3 Compliance with Local Laws</strong></p><ul id="20a8dc9a-eda5-8008-bfab-d62641786e56" class="bulleted-list"><li style="list-style-type:disc">You agree to comply with all applicable laws in your jurisdiction, including but not limited to:<ul id="20a8dc9a-eda5-8010-87d0-faf661c41df8" class="bulleted-list"><li style="list-style-type:circle">Food safety and labelling regulations.</li></ul><ul id="20a8dc9a-eda5-80de-82ba-f3ccee3ed32c" class="bulleted-list"><li style="list-style-type:circle">Consumer protection laws (e.g., UK Consumer Rights Act 2015, EU Consumer Rights Directive).</li></ul><ul id="20a8dc9a-eda5-802d-9281-ee64e6367d0e" class="bulleted-list"><li style="list-style-type:circle">Tax obligations related to sales or services.</li></ul><ul id="20a8dc9a-eda5-8074-92da-e0856863bc03" class="bulleted-list"><li style="list-style-type:circle">Environmental and public health regulations for events (e.g., litter picking or markets).</li></ul></li></ul><ul id="20a8dc9a-eda5-8018-960d-d320c50e3744" class="bulleted-list"><li style="list-style-type:disc">Sellers are solely responsible for ensuring their goods and services meet all applicable health, safety, and regulatory standards in the jurisdictions where they operate or sell.</li></ul><p id="20a8dc9a-eda5-8025-b6a4-e28a1e824483" class=""><strong>3.4 Transactions</strong></p><ul id="20a8dc9a-eda5-8024-baa3-d998ba748de4" class="bulleted-list"><li style="list-style-type:disc">Buyers and sellers are solely responsible for negotiating, fulfilling, and resolving disputes related to transactions.</li></ul><ul id="20a8dc9a-eda5-80fd-9b08-d96e06a72d6d" class="bulleted-list"><li style="list-style-type:disc">Users under the age of majority confirm, by agreeing to these Terms, that they have parental or guardian consent to engage in transactions (e.g., purchasing goods like eggs) or attend events listed on the Platform.</li></ul><ul id="20a8dc9a-eda5-80f8-9bab-ef2b7edd1de9" class="bulleted-list"><li style="list-style-type:disc">GreenThumbs does not verify or guarantee the quality, safety, or legality of goods, services, or events, including food products, handmade items, or event safety.</li></ul><ul id="20a8dc9a-eda5-8068-8c7a-eec8d1d2a170" class="bulleted-list"><li style="list-style-type:disc">Users must ensure that their transactions comply with local laws, including import/export regulations for cross-border sales.</li></ul><p id="20a8dc9a-eda5-8071-a4a3-e15db0c7f89f" class=""><strong>3.5 Listing Claims</strong></p><ul id="20a8dc9a-eda5-80e7-9460-c7e1b3c057cf" class="bulleted-list"><li style="list-style-type:disc">Any user may create a listing for goods, services, or events on the Platform. The owner or authorised representative of the goods, services, or events (e.g., the grower, seller, or event organiser) may claim ownership of a listing by submitting documentation proving their authority or ownership (e.g., business registration, event permit, or other relevant proof).</li></ul><ul id="20a8dc9a-eda5-805e-aed4-cfdab26bdbdf" class="bulleted-list"><li style="list-style-type:disc">GreenThumbs reserves the right to review, approve, or reject any claim at its sole discretion to ensure the accuracy and legitimacy of listings. Users submitting claims confirm that all provided information is accurate and complies with these Terms.</li></ul><ul id="20a8dc9a-eda5-8055-98c9-f4dab605c3dd" class="bulleted-list"><li style="list-style-type:disc">All documents and personal information submitted during the claim process will be handled securely, kept confidential, and used solely for the purpose of verifying the claim, in compliance with applicable data protection laws, including the UK Data Protection Act 2018 and EU GDPR. GreenThumbs will not disclose such information to third parties except as required by law or to facilitate the claim process.</li></ul><p id="20a8dc9a-eda5-803c-85c6-c1db875b3b69" class="">
+</p><p id="20a8dc9a-eda5-8093-9fcd-f055146ae1f8" class=""><strong>4. Platform Usage Rules</strong></p><ul id="20a8dc9a-eda5-8003-82e1-fe6ed857bb80" class="bulleted-list"><li style="list-style-type:disc"><strong>Prohibited Activities</strong>: You may not use the Platform to:<ul id="20a8dc9a-eda5-805b-93cd-e86dd7857252" class="bulleted-list"><li style="list-style-type:circle">Engage in illegal, fraudulent, or harmful activities, including the sale of prohibited items (e.g., illegal substances, unsafe food products, or hazardous materials).</li></ul><ul id="20a8dc9a-eda5-8067-aa3d-f210ef13b0af" class="bulleted-list"><li style="list-style-type:circle">Harass, discriminate against, or harm other users based on race, religion, gender, or other protected characteristics.</li></ul><ul id="20a8dc9a-eda5-801e-ad2c-f7d2ce3735d3" class="bulleted-list"><li style="list-style-type:circle">Interfere with the Platform’s functionality (e.g., through hacking, spreading malware, or overloading servers).</li></ul><ul id="20a8dc9a-eda5-8025-bd57-c9c9731915a0" class="bulleted-list"><li style="list-style-type:circle">Post content that violates local or international laws, including intellectual property or privacy laws.</li></ul></li></ul><ul id="20a8dc9a-eda5-807e-9963-c603b4147899" class="bulleted-list"><li style="list-style-type:disc"><strong>Content Removal</strong>: GreenThumbs reserves the right to remove any content or suspend/terminate accounts that violate these Terms or applicable laws, without notice.</li></ul><ul id="20a8dc9a-eda5-80dd-8215-e20d6dba499a" class="bulleted-list"><li style="list-style-type:disc"><strong>Global Accessibility</strong>: The Platform may not be available in certain jurisdictions due to local laws or restrictions. You are responsible for ensuring that your use of the Platform is lawful in your jurisdiction.</li></ul><p id="20a8dc9a-eda5-8029-8cc5-ee4a81b43e4c" class="">
+</p><p id="20a8dc9a-eda5-80f2-adf5-c2df4bc31e87" class=""><strong>5. Disclaimer of Liability</strong></p><p id="20a8dc9a-eda5-8068-9eb6-c06e8f508dd4" class=""><strong>5.1 No Warranty</strong></p><p id="20a8dc9a-eda5-80f8-b993-f988afc294a8" class="">The Platform is provided &quot;as is&quot; and &quot;as available&quot; without warranties of any kind, express or implied, to the fullest extent permitted by applicable law. GreenThumbs does not guarantee:</p><ul id="20a8dc9a-eda5-8026-99e1-f3e62282630b" class="bulleted-list"><li style="list-style-type:disc">The accuracy, safety, quality, or legality of user-generated content or listings.</li></ul><ul id="20a8dc9a-eda5-807f-900a-d69eafce8b09" class="bulleted-list"><li style="list-style-type:disc">The uninterrupted or error-free operation of the Platform.</li></ul><ul id="20a8dc9a-eda5-80d6-9d90-cf476b63ad0b" class="bulleted-list"><li style="list-style-type:disc">The suitability of the Platform for your needs.</li></ul><p id="20a8dc9a-eda5-8036-bf7d-da2a52b944d4" class=""><strong>5.2 User Transactions</strong></p><p id="20a8dc9a-eda5-8095-85a0-fee4afabd64f" class="">GreenThumbs is not responsible for:</p><ul id="20a8dc9a-eda5-805e-9dd4-f4f4d9ed3188" class="bulleted-list"><li style="list-style-type:disc">The safety, quality, or legality of goods, services, or events listed or obtained through the Platform, including but not limited to food poisoning, allergic reactions, injuries, or damages caused by goods or events.</li></ul><ul id="20a8dc9a-eda5-8089-8204-c09a792ebb88" class="bulleted-list"><li style="list-style-type:disc">Any disputes between users, including non-delivery, misrepresentation, or payment issues.</li></ul><ul id="20a8dc9a-eda5-80aa-bb35-d856812e3700" class="bulleted-list"><li style="list-style-type:disc">Compliance with local laws or regulations governing transactions, goods, or events.</li></ul><p id="20a8dc9a-eda5-8098-b028-d2faedf6ed04" class=""><strong>5.3 Third-Party Interactions</strong></p><p id="20a8dc9a-eda5-8075-a49a-e033413e38f5" class="">GreenThumbs is not liable for interactions between users or with third parties (e.g., payment processors, delivery services, or event organisers) facilitated through the Platform.</p><p id="20a8dc9a-eda5-80ab-b01e-f9d132bd05ba" class=""><strong>5.4 Global Application</strong></p><p id="20a8dc9a-eda5-80e5-81bc-eea4adeec3d1" class="">Some jurisdictions may not allow certain disclaimers. In such cases, the disclaimers apply to the maximum extent permitted by local law.</p><p id="20a8dc9a-eda5-80d1-ae67-f5b2978031a9" class="">
+</p><p id="20a8dc9a-eda5-8061-8189-fd1b428c0634" class=""><strong>6. Limitation of Liability</strong></p><p id="20a8dc9a-eda5-8012-bf0d-c30224647dbf" class="">To the fullest extent permitted by applicable law, GreenThumbs, its affiliates, officers, directors, employees, and agents will not be liable for any direct, indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or goodwill, arising from:</p><ul id="20a8dc9a-eda5-804d-a4e0-f8499da3e1b7" class="bulleted-list"><li style="list-style-type:disc">Your use of or inability to use the Platform.</li></ul><ul id="20a8dc9a-eda5-8064-9ff0-dc9df6678e12" class="bulleted-list"><li style="list-style-type:disc">The conduct, content, or transactions of users or third parties.</li></ul><ul id="20a8dc9a-eda5-803a-9fe6-c0ff940e8f06" class="bulleted-list"><li style="list-style-type:disc">Any goods, services, or events listed or obtained through the Platform, including harm caused by unsafe products or events.</li></ul><p id="20a8dc9a-eda5-80c5-b24c-e491170033a4" class="">Where liability cannot be excluded under local law (e.g., UK Consumer Rights Act 2015, EU consumer laws), GreenThumbs’ total liability will be limited to the amount you paid to GreenThumbs, if any, for using the Platform, or the minimum amount permitted by law.</p><p id="20a8dc9a-eda5-806a-aa9c-ef482c479330" class="">
+</p><p id="20a8dc9a-eda5-8001-b395-ca07ce3ffde6" class=""><strong>7. Indemnification</strong></p><p id="20a8dc9a-eda5-80c6-92bb-c07d4e1e98bb" class="">You agree to indemnify, defend, and hold harmless GreenThumbs, its affiliates, officers, directors, employees, and agents from any claims, liabilities, damages, losses, or expenses (including reasonable legal fees) arising from:</p><ul id="20a8dc9a-eda5-80f1-808f-fbae49b50add" class="bulleted-list"><li style="list-style-type:disc">Your use of the Platform.</li></ul><ul id="20a8dc9a-eda5-807f-ab37-e58099a929de" class="bulleted-list"><li style="list-style-type:disc">Your violation of these Terms or any applicable local, national, or international laws.</li></ul><ul id="20a8dc9a-eda5-8014-a48e-d78570a2e8a4" class="bulleted-list"><li style="list-style-type:disc">Your content, listings, transactions, or events.</li></ul><ul id="20a8dc9a-eda5-8091-b41e-c443359c1bee" class="bulleted-list"><li style="list-style-type:disc">Any harm, injury, or damages caused by goods, services, or events you post, sell, or provide, including but not limited to food safety issues, event-related injuries, or intellectual property violations.</li></ul><p id="20a8dc9a-eda5-8061-9ac6-e6af8b385be1" class="">This indemnification obligation applies globally, subject to mandatory local laws.</p><p id="20a8dc9a-eda5-809b-93a5-eaefecb51762" class="">
+</p><p id="20a8dc9a-eda5-808a-a622-c76e234bb134" class=""><strong>8. Intellectual Property</strong></p><p id="20a8dc9a-eda5-80f8-ba5a-c605b2cac8ce" class=""><strong>8.1 GreenThumbs’ Rights</strong></p><p id="20a8dc9a-eda5-8050-a279-f3d789b4088c" class="">All content, trademarks, and intellectual property related to the Platform (excluding user-generated content) are owned by GreenThumbs or its licensors. You may not use, copy, or distribute such content without prior written permission.</p><p id="20a8dc9a-eda5-80be-a424-e2aa1f719a1d" class=""><strong>8.2 User Content</strong></p><p id="20a8dc9a-eda5-80c7-8034-c782c69529ba" class="">By posting content, you grant GreenThumbs a non-exclusive, worldwide, royalty-free, perpetual, transferable licence to use, display, reproduce, modify, and distribute your content for the purpose of operating, promoting, and improving the Platform. You represent that you have the right to grant this licence and that your content does not infringe on any third-party rights.</p><p id="20a8dc9a-eda5-804c-b6fd-de04499f5bb5" class=""><strong>8.3 Intellectual Property Complaints</strong></p><p id="20a8dc9a-eda5-8032-ab66-ed0252f13649" class="">If you believe content on the Platform infringes your intellectual property rights, contact us at support@greenthumbs.app with details, including evidence of your rights and the infringing content. GreenThumbs will review and address complaints in accordance with applicable laws, such as the UK Copyright, Designs and Patents Act 1988, EU Directive 2001/29/EC, and equivalent international regulations.</p><p id="20a8dc9a-eda5-8016-838f-c0610b46c1b3" class="">
+</p><p id="20a8dc9a-eda5-8036-885a-d27b7a9ebc46" class=""><strong>9. Termination</strong></p><p id="20a8dc9a-eda5-8041-bccc-ee0326fb81ec" class="">GreenThumbs may suspend or terminate your account or access to the Platform at any time, with or without cause, including for violations of these Terms or applicable laws. Upon termination:</p><ul id="20a8dc9a-eda5-80aa-8513-d9ee8f91453b" class="bulleted-list"><li style="list-style-type:disc">Your right to use the Platform ceases.</li></ul><ul id="20a8dc9a-eda5-80ff-9fbd-fc1e846615d6" class="bulleted-list"><li style="list-style-type:disc">Provisions of these Terms related to liability, indemnification, intellectual property, and dispute resolution survive.</li></ul><p id="20a8dc9a-eda5-80b0-88f0-c3fdcb9c8d7b" class="">You may terminate your account at any time by contacting support@greenthumbs.app or using the account deletion feature, subject to any local legal requirements.</p><p id="20a8dc9a-eda5-80f8-b09a-da2cb37901c2" class="">
+</p><p id="20a8dc9a-eda5-8022-ad9f-f3bed534ae91" class=""><strong>10. Dispute Resolution</strong></p><p id="20a8dc9a-eda5-807e-a24c-c87dc3fc5b70" class=""><strong>10.1 Governing Law</strong></p><p id="20a8dc9a-eda5-80b6-9933-dfbaa51c62ad" class="">These Terms are governed by the laws of England and Wales, to the extent permitted by your local jurisdiction. Where local laws mandate the application of specific laws to certain aspects of these Terms (e.g., EU consumer protection laws), those laws will apply.</p><p id="20a8dc9a-eda5-80c9-a1cb-ec1fc49cd4f9" class=""><strong>10.2 Arbitration</strong></p><p id="20a8dc9a-eda5-805e-a1c3-ec861a4d15df" class="">Any disputes arising from these Terms or your use of the Platform will be resolved through binding arbitration in London, United Kingdom, under the rules of the London Court of International Arbitration (LCIA), unless local law requires otherwise. Arbitration will be conducted in English, and you waive the right to participate in class actions or pursue claims in court, except where such waivers are prohibited by local law (e.g., EU consumer laws).</p><p id="20a8dc9a-eda5-80a7-b3c9-d3a05f9d13c2" class=""><strong>10.3 Exceptions</strong></p><p id="20a8dc9a-eda5-8022-a489-fe32bd1a1a9f" class="">Where arbitration is not permitted by local law, disputes may be resolved in the courts of your jurisdiction or another mutually agreed venue. You agree to submit to the personal jurisdiction of such courts.</p><p id="20a8dc9a-eda5-801d-87ff-fa84a9854bf7" class="">
+</p><p id="20a8dc9a-eda5-807f-a4ae-f51a0a73923c" class=""><strong>11. International Considerations</strong></p><p id="20a8dc9a-eda5-80e5-bc92-ebd0f827e7df" class=""><strong>11.1 Global Accessibility</strong></p><p id="20a8dc9a-eda5-8069-863c-f526d531b715" class="">The Platform is accessible worldwide, but some features or content may be restricted in certain jurisdictions due to local laws or regulations. You are responsible for ensuring that your use of the Platform complies with the laws of your country or region.</p><p id="20a8dc9a-eda5-8015-aaa1-f32f6e4f074f" class=""><strong>11.2 Language</strong></p><p id="20a8dc9a-eda5-80a2-9f8b-c7673f592640" class="">These Terms are provided in English. Translations may be available for convenience, but the English version prevails in case of discrepancies, unless local law requires otherwise.</p><p id="20a8dc9a-eda5-80ff-9c15-fa5a5b7d3203" class=""><strong>11.3 Consumer Protection</strong></p><p id="20a8dc9a-eda5-80a3-ad43-d1218f82fb30" class="">In jurisdictions with mandatory consumer protection laws (e.g., the European Union, United Kingdom), these Terms do not exclude or limit your statutory rights. If any provision conflicts with your local consumer rights, the local law prevails to the extent of the conflict.</p><p id="20a8dc9a-eda5-80e5-9b77-f8352989c68c" class="">
+</p><p id="20a8dc9a-eda5-8014-a943-dcec2f1a38be" class=""><strong>12. Miscellaneous</strong></p><ul id="20a8dc9a-eda5-8022-b7d2-da3881229599" class="bulleted-list"><li style="list-style-type:disc"><strong>Severability</strong>: If any provision of these Terms is found invalid or unenforceable in any jurisdiction, the remaining provisions remain enforceable to the fullest extent permitted by law.</li></ul><ul id="20a8dc9a-eda5-8013-993b-c33344fc165f" class="bulleted-list"><li style="list-style-type:disc"><strong>Entire Agreement</strong>: These Terms constitute the entire agreement between you and GreenThumbs regarding the Platform, superseding any prior agreements.</li></ul><ul id="20a8dc9a-eda5-8046-a30d-dcbf0918dee3" class="bulleted-list"><li style="list-style-type:disc"><strong>No Waiver</strong>: GreenThumbs’ failure to enforce any provision does not waive its right to do so later.</li></ul><ul id="20a8dc9a-eda5-8075-ab7c-dbb012f6bda9" class="bulleted-list"><li style="list-style-type:disc"><strong>Assignment</strong>: You may not assign your rights under these Terms without GreenThumbs’ prior written consent. GreenThumbs may assign its rights freely.</li></ul><ul id="20a8dc9a-eda5-8084-bc1e-ee6a30b715a6" class="bulleted-list"><li style="list-style-type:disc"><strong>Force Majeure</strong>: GreenThumbs is not liable for delays or failures to perform due to events beyond its reasonable control (e.g., natural disasters, wars, or government actions).</li></ul><p id="20a8dc9a-eda5-80f6-bc85-dfe8b3248c0d" class="">
+</p><p id="20a8dc9a-eda5-8090-abe6-fa053a2657dd" class=""><strong>13. Contact Information</strong></p><p id="20a8dc9a-eda5-8078-adac-dce04e040261" class="">For questions or concerns about these Terms, contact us at:</p><ul id="20a8dc9a-eda5-802a-b9b8-c55fe5d46a54" class="bulleted-list"><li style="list-style-type:disc">Email: support@greenthumbs.app</li></ul><p id="20a8dc9a-eda5-80c2-9a9e-f7d9869002bc" class="">By using GreenThumbs, you (or your parent/guardian, if applicable) acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions, and you accept responsibility for ensuring compliance with the laws of your jurisdiction.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
